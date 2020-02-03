@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Nunito&display=swap');
+
+.title{
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(to right,#6f42c1,#dc3545,#1faa00,#c7cc00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.quark{
+    background-color: #6f42c1;
+    text-shadow: 0 0 2px black;
+    font-family: 'Nunito', sans-serif;
+    transition: 1s;
+}
+.quark:hover{
+    transform: scale(1.1);
+}
+
+.boson{
+    background-color: #dc3545;
+    text-shadow: 0 0 2px black;
+    font-family: 'Nunito', sans-serif;
+    transition: 1s;
+}
+.boson:hover{
+    transform: scale(1.1);
+}
+
+.lepton{
+    background-color:#1faa00;
+    text-shadow: 0 0 2px black;
+    font-family: 'Nunito', sans-serif;
+    transition: 1s;
+}
+.lepton:hover{
+    transform: scale(1.1);
+}
+
+.higg{
+    background-color: #c7cc00;
+    text-shadow: 0 0 2px black;
+    font-family: 'Nunito', sans-serif;
+}
+.higg:hover{
+    transform: scale(1.1);
+}
